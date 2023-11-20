@@ -2,9 +2,9 @@
     margin: 0;
 }
 .container{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    /* background-color: red; */
+    background-color: hsl(235, 46%, 20%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,7 @@
     /* justify-content: center;
     align-items: center; */
     /* background-color: green; */
+    /* background-color: hsl(246, 80%, 60%); */
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(4,1fr);
@@ -75,7 +76,7 @@ p{ color: white;}
     margin-left: 20px;
 }
 .two{
-    background-color: violet;
+    /* background-color: violet; */
     grid-area: two;
 }
 .main-div{
@@ -195,6 +196,7 @@ p{ color: white;}
 }
 .main-div{
     display: flex;
+
     flex-direction: column;
     background-color: brown;
     justify-content: center;
